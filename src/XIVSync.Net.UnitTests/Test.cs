@@ -31,5 +31,13 @@ namespace XIVSync.Net.UnitTests
             Assert.AreEqual(res.Ok, 1);
 
         }
+
+        [Test]
+        public void DoesGetServersWork()
+        {
+            var res = new LodestoneApi().GetServers();
+           Assert.IsTrue(res.Any());
+
+        }
     }
 }
