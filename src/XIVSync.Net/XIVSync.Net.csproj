@@ -57,7 +57,7 @@
     <Compile Include="LodestoneApi.cs" />
     <Compile Include="LodestoneSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Servers.cs" />
+    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

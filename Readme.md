@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/et48yhs1isaten9t?svg=true)](https://ci.appveyor.com/project/tparnell8/xivsync-net)
+
 ## What is this?
 
 A C# binding against the XVI sync API binding
