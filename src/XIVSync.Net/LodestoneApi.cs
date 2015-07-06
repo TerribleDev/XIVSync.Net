@@ -32,7 +32,7 @@ namespace XIVSync.Net
             return response.StatusCode != HttpStatusCode.OK ? null : JsonConvert.DeserializeObject<LodestoneCharacter>(response.Content);
         }
 
-        public IEnumerable<Server> GetServers(double timeoutSeconds = 90)
+        public IList<Server> GetServers(double timeoutSeconds = 90)
         {
             var dom = CQ.CreateFromUrl("http://na.finalfantasyxiv.com/lodestone/worldstatus/", new ServerConfig() {TimeoutSeconds =  timeoutSeconds});
             var servers = new List<Server>();
